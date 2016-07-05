@@ -1,0 +1,22 @@
+{
+    "name": "codekitchen-ws/simple-protobuf",
+    "description": "A simple and direct approach to integrating protobuf with PHP. You specify a .proto file and a feed, and you get back a json object that contains all of the data from the feed.",
+    "license": "MIT",
+    "keywords": ["protobuf","protoc", "json"],
+    "homepage": "https://github.com/codekitchen-ws/simple-protobuf",
+    "authors": [
+        {
+            "name": "Brian Tucker",
+            "email": "brian@codekitchen.ws"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeKitchen\\SimpleProtobuf\\": "src"
+        }
+    }
+}
