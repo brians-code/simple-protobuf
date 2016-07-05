@@ -20,6 +20,6 @@
         }
     },
     "bin": [
-        "protoc"
+        "bin/protoc"
     ]
 }
